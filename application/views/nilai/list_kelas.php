@@ -35,7 +35,7 @@
                         <th>MATA PELAJARAN</th>
                         <th>HARI</th>
                         <th>JAM</th>
-                        <th>RUANG</th>
+                        
                         <th></th>
                     </tr>
                 </thead>
@@ -49,7 +49,7 @@
                                 <td>$row->nama_mapel</td>
                                 <td>$row->hari</td>
                                 <td>$row->jam</td>
-                                <td>$row->nama_ruangan</td>
+                               
                                 <td>".anchor('nilai/kelas/'.$row->id_jadwal, '<i class="fa fa-eye" aria-hidden="true"></i>')."</td>
                             </tr>";
                         $no++;
